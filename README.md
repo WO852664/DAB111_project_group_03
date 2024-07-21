@@ -39,8 +39,6 @@ The project includes a Flask-based website with the following pages:
 - **Description**: The data page displays a sample of the immigration data. This sample showcases a subset of the Canada Immigration dataset for the year 2019.
 - **Link**: http://127.0.0.1:5000/data
 
-# Setup and Installation
-
 # Prerequisites
 - Python 3.x
 - Flask
