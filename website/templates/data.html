@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        p {
+            line-height: 1.6;
+        }
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .data {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        .data th, .data td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        .data th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Data</h1>
+    <h2>Sample of the Immigration Data</h2>
+    <p>This data sample showcases a subset of the Canada Immigration dataset for the year 2019. This project is part of the DAB111 course at St. Clair College, which focuses on Python programming and data analysis. Below is a sample of the data that has been extracted and displayed for analysis purposes.</p>
+    <p>Each row in the table represents an individual entry from the dataset, and the columns correspond to various attributes of the immigration data. For more detailed analysis, refer to the full dataset and documentation available in the project repository.</p>
+    {{ tables[0]|safe }}
+    <p><a href="/">Home</a> | <a href="/about">About</a></p>
+</body>
+</html>
+

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77c1fc 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header ul li {
+            float: right;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header h1 {
+            float: left;
+            display: inline;
+            margin: 0;
+            padding: 0;
+        }
+        .main-content {
+            padding: 20px;
+            background: #fff;
+            margin-top: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        .student-info {
+            margin-top: 20px;
+            padding: 10px;
+            background: #e2e2e2;
+            border-radius: 5px;
+        }
+        .student-info ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .student-info ul li {
+            padding: 5px 0;
+        }
+        .btn {
+            display: inline-block;
+            color: #fff;
+            background: #333;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s ease-in-out;
+        }
+        .btn:hover {
+            background: #77c1fc;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Immigration Data Project</h1>
+            <ul>
+                <li><a href="/data">Data</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/">Home</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="container">
+        <div class="main-content">
+            <h2>Welcome to the Immigration Data Website</h2>
+            <p>This project is part of the DAB111 course at St. Clair College, focusing on Python programming and data analytics.</p>
+            <div class="student-info">
+                <h3>Project Team</h3>
+                <ul>
+                    <li>EMMANUEL ARAOYINBO W0852664</li>
+                    <li>LINGFANG HE W0868216</li>
+                </ul>
+            </div>
+            <a href="/about" class="btn">Learn More</a>
+            <a href="/data" class="btn">View Data</a>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 St. Clair College. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
