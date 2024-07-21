@@ -47,7 +47,3 @@ The project includes a Flask-based website with the following pages:
 - pandas
 - SQLite
 
-# Installation Steps
- **Clone the repository**:
-   ```bash
-   git clone https://github.com/yourusername/DAB111_project_group_03.git
