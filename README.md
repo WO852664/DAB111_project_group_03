@@ -29,15 +29,15 @@ The project includes a Flask-based website with the following pages:
 
 # Homepage
 - **Description**: The homepage provides an introduction to the project and links to the *About* and *Data* pages.
-- **Link**: `/`
+- **Link**: http://127.0.0.1:5000/
 
 # About Page
 - **Description**: The about page details the source of the data and provides definitions of each variable.
-- **Link**: `/about`
+- **Link**: http://127.0.0.1:5000/about
 
 # Data Page
 - **Description**: The data page displays a sample of the immigration data. This sample showcases a subset of the Canada Immigration dataset for the year 2019.
-- **Link**: `/data`
+- **Link**: http://127.0.0.1:5000/data
 
 # Setup and Installation
 
